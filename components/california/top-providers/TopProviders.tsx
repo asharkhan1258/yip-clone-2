@@ -1,5 +1,5 @@
 import InternetPackages from '../../services/internet-packages/InternetPackages';
-import styles from "../.. /top-providers/topProvider.module.css";
+import styles from "../../phone-service/top-providers/topProvider.module.css";
 const TopProviders = () => {
     const data = [
         {
