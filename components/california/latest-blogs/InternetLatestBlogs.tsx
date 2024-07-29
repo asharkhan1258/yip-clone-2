@@ -1,4 +1,4 @@
-import styles from "../../phone-service/latest-blogs/phoneLatestBlogs.module.css";
+import styles from "../.. /latest-blogs/phoneLatestBlogs.module.css";
 import LatestBlogBox from "../../home/latest-blogs/LatestBlogBox";
 
 const InternetLatestBlogs = ({blogs}:any) => {

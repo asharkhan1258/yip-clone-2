@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Banner from "../components/phone-service/banner/Banner";
-import LatestBlogs from "../components/phone-service/latest-blogs/LatestBlogs";
-import PhonePackages from "../components/phone-service/phone-packages/PhonePackages";
-import ProviderBenifits from "../components/phone-service/phone-providers/ProviderBenifits";
-import TopProviders from "../components/phone-service/top-providers/TopProviders";
+import Banner from "../components /banner/Banner";
+import LatestBlogs from "../components /latest-blogs/LatestBlogs";
+import PhonePackages from "../components /phone-packages/PhonePackages";
+import ProviderBenifits from "../components /phone-providers/ProviderBenifits";
+import TopProviders from "../components /top-providers/TopProviders";
 import Yiptrustbox from "../components/services/yip-trust/Yiptrustbox";
 import getBlogs from "../controllers/getBlogs";
 

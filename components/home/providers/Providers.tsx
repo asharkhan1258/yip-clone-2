@@ -5,10 +5,10 @@ import { motion, useScroll } from "framer-motion";
 import useDimensions from "../../../hooks/use-dimensions"; 
 
 const pagesURL = [
-  "/internet-providers-in-your-area",
-  "/cable-tv-providers-in-your-area",
+  // " ",
+  " ",
   "/",
-  "/phone-services-providers",
+  " s-providers",
 ];
 
 const Providers = ({ content }: any) => {
@@ -57,7 +57,7 @@ const Providers = ({ content }: any) => {
                   features are available.
                 </p>
               }
-              url="/internet-providers-in-your-area"
+              url=" "
             />
             <Box
               img={`/images/cable.png`}
@@ -69,7 +69,7 @@ const Providers = ({ content }: any) => {
                   exceptional customer service.
                 </p>
               }
-              url="/cable-tv-providers-in-your-area"
+              url=" "
             />
             <Box
               img={`/images/landline.png`}
@@ -93,7 +93,7 @@ const Providers = ({ content }: any) => {
                   stay connected.
                 </p>
               }
-              url="/phone-services-providers"
+              url=" s-providers"
             />
           </div>
         </motion.div>
