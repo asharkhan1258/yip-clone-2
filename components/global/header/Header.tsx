@@ -80,9 +80,9 @@ const Header = () => {
     "/bandwidth-calculator-tool",
     "/speed-testing-tool",
     "/privacy-policy",
-    // " ",
-    // " ",
-    " s-providers",
+    "/internet-providers-in-your-area",
+    "/cable-tv-providers-in-your-area",
+    "/phone-services-providers",
     "/state/[name]",
   ];
   const path = router.pathname;
@@ -139,9 +139,9 @@ const Header = () => {
   ];
 
   const services = [
-    { text: "Internet", url: " " },
-    { text: "Cable", url: " " },
-    { text: "Phone", url: " s-providers" },
+    { text: "Internet", url: "/internet-providers-in-your-area" },
+    { text: "Cable", url: "/cable-tv-providers-in-your-area" },
+    { text: "Phone", url: "/phone-services-providers" },
   ];
 
   const state = [

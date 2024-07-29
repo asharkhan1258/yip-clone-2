@@ -16,9 +16,9 @@ export const Footer = () => {
     "/bandwidth-calculator-tool",
     "/speed-testing-tool",
     "/privacy-policy",
-    // " ",
-    // " ",
-    " s-providers",
+    "/internet-providers-in-your-area",
+    "/cable-tv-providers-in-your-area",
+    "/phone-services-providers",
     "/california",
     "/state/[name]"
   ];
